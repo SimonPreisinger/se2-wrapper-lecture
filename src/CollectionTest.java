@@ -8,9 +8,9 @@ public class CollectionTest {
     public static void main (String... args){
         // different speeds
         // Collection<Integer> integers = new ArrayList<>();
-         Collection<Integer> integers = new LinkedList<>();
+        // Collection<Integer> integers = new LinkedList<>();
         // Collection<Integer> integers = new HashSet<>();
-        // Collection<Integer> integers = new TreeSet<>();
+         Collection<Integer> integers = new TreeSet<>();
 
         for (int i = 1; i < 1_000_000; i++) {
             integers.add(i);
